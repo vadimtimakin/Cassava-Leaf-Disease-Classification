@@ -1,6 +1,6 @@
 from torch.cuda import is_available, empty_cache
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"   # RTX 3080 with cuda-11 fix
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"   # RTX 3080 with cuda-11 fix
 print(is_available())
 empty_cache()
 
