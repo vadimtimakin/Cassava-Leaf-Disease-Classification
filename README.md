@@ -6,7 +6,7 @@ This is a solution for [Cassava Leaf Disease Classification](https://www.kaggle.
 In this repository you can find my pipeline and our solution for this competition. In the first part of README I'll describe our solution and in the second part I'll describe the repository's structure with the descriptions of all the files.
 
 Source write-up is [here](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/220586).  
-You can find our full report (33 pages) about this competition [here](https://docs.google.com/document/d/1TNTfrDrhYSAAgL_L6gIX5stw1Lfm76XJ-QY7yS4UfTc/edit?usp=sharing) (or [here](https://github.com/t0efL/Cassava-Leaf-Disease-Classification/blob/main/FullReport.docx)).
+You can find our full report (33 pages) about this competition [here](https://docs.google.com/document/d/1TNTfrDrhYSAAgL_L6gIX5stw1Lfm76XJ-QY7yS4UfTc/edit?usp=sharing) (or [here](https://github.com/t0efL/Cassava-Leaf-Disease-Classification/blob/main/FullReport.docx)). 
 
 ## Solution
 
