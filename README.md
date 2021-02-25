@@ -1,2 +1,2 @@
 # Cassava-Leaf-Disease-Classification
-Pipeline and solution for this competition
+Pipeline and solution for the competition
