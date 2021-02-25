@@ -90,4 +90,29 @@ Max Probability (or Max Confidence) ensemble allows us to choose the dominating 
 Here is the scheme of our ensembles:
 ![](https://github.com/t0efL/Cassava-Leaf-Disease-Classification/blob/main/images/scheme.png)
 
+## Repository structure
+- **custom_functions** - folder containing all the custom functions and classes
+  - scheduler.py - custom scheduler (CosineBatchDecayScheduler)
+  - lossfn.py - custom loss function with label smoothing
+  - optimizer.py - Ranger optimizer (copied from [here](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer))
+  - augmentations.py - custom augmentations implementations (cutmix, mixup, fmix)
+- **experiments** - bonus code for experiments
+  - knowledge_distillation.py - code for getting new labels and model's confidence
+  - kd_process.py - processing of new labels according model's condfidence
+  - pseudolabeling.py - code for pseudo-labeling of external data
+  - pl_process.py - processing of pseudo-labeled labels according model's confidence
+- **images** - folder containing all the images for README
+  - lr_plot.jpg - learning rate changes plot
+  - table.jpg - table with the training results
+  - scheme.jpg - scheme of our final ensemble
+- **FullReport.docx** - our full report for this competition
+- **config.py** - main config for training, you can set up everything there
+- **data_functions.py** - module containing functions and classes for processing and preparing the data for training
+- **fmix.py** - code for fmix function (copied from [here](https://github.com/ecs-vlc/FMix/blob/master/fmix.py))
+- **main.py** - main module, run it to start the training
+- **train.csv** - annotation file for training containing image names and labels for source dataset, 2019 dataset and pseudo-labeled part of the external data dataset
+- **train_functions.py** - main functions for the training
+- **utils.py** - module containing all the auxiliary functions
+- **weights_transformer.py** - code for cropping weights (leaves only the state of the model in the file)
+
 *Don't deal with the noise...*
