@@ -1,7 +1,7 @@
 # Cassava-Leaf-Disease-Classification
 
 ## Introduction
-This is a solution for [Cassava Leaf Disease Classification](https://www.kaggle.com/c/cassava-leaf-disease-classification) by [me](https://github.com/t0efL), [Maksim Zhdanov](https://github.com/xzcodes) and [Emin Tagiev](https://github.com/Emilien-mipt).  
+This is a solution for [Cassava Leaf Disease Classification](https://www.kaggle.com/c/cassava-leaf-disease-classification) by [Maksim Zhdanov](https://github.com/xzcodes), [Emin Tagiev](https://github.com/Emilien-mipt) and [me](https://github.com/t0efL).  
 
 In this repository you can find my pipeline and our solution for this competition. In the first part of README I'll describe our solution and in the second part I'll describe the repository's structure with the descriptions of all the files.
 
